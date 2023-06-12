@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DASBOARD</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="shadow"></div>
+    <div class="panel">
+        <div class="panel__container _container">
+            <div class="panel__wrapper">
+                <div class="panel__menu panel-menu">
+                    <div class="panel-menu__logo">
+                        <a href="./index.html">
+                            <svg>
+                                <use xlink:href="./images/svg/sprite.svg#logo"></use>
+                            </svg>
+                            <div class="name">Dashboard</div>
+                            <span>v.01</span>
+                        </a>
+                    </div>
+                    <div class="panel-menu__inner">
+                        <ul class="panel-menu__list">
+                            <li class="panel-menu__item">
+                                <a href="#" class="panel-menu__link">
+                                    <span>
+                                        <svg>
+                                            <use xlink:href="./images/svg/sprite.svg#dashboard"></use>
+                                        </svg>
+                                        Dashboard
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="panel-menu__item">
+                                <a href="#" class="panel-menu__link">
+                                    <span>
+                                        <svg class="amendment">
+                                            <use xlink:href="./images/svg/sprite.svg#product"></use>
+                                        </svg>
+                                        Product
+                                    </span>
+                                    <svg class="arrow">
+                                        <use xlink:href="./images/svg/sprite.svg#arrow"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="panel-menu__item active">
+                                <a href="#" class="panel-menu__link">
+                                    <span>
+                                        <svg>
+                                            <use xlink:href="./images/svg/sprite.svg#user"></use>
+                                        </svg>
+                                        Customers
+                                    </span>
+                                    <svg class="arrow">
+                                        <use xlink:href="./images/svg/sprite.svg#arrow"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="panel-menu__item">
+                                <a href="#" class="panel-menu__link">
+                                    <span>
+                                        <svg>
+                                            <use xlink:href="./images/svg/sprite.svg#income"></use>
+                                        </svg>
+                                        Income
+                                    </span>
+                                    <svg class="arrow">
+                                        <use xlink:href="./images/svg/sprite.svg#arrow"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="panel-menu__item">
+                                <a href="#" class="panel-menu__link">
+                                    <span>
+                                        <svg class="amendment">
+                                            <use xlink:href="./images/svg/sprite.svg#promote"></use>
+                                        </svg>
+                                        Promote
+                                    </span>
+                                    <svg class="arrow">
+                                        <use xlink:href="./images/svg/sprite.svg#arrow"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="panel-menu__item">
+                                <a href="#" class="panel-menu__link">
+                                    <span>
+                                        <svg class="amendment">
+                                            <use xlink:href="./images/svg/sprite.svg#help"></use>
+                                        </svg>
+                                        Help
+                                    </span>
+                                    <svg class="arrow">
+                                        <use xlink:href="./images/svg/sprite.svg#arrow"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="panel-menu__bottom panel-menu-bottom">
+                            <div class="panel-menu-bottom__user">
+                                <div class="panel-menu-bottom__photo">
+                                    <img src="./images/Evano.png" alt="User">
+                                </div>
+                                <div class="panel-menu-bottom__inner">
+                                    <div class="panel-menu-bottom__name">Evano</div>
+                                    <div class="panel-menu-bottom__prof">Project Manager</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="panel-menu__btn-plus">
+                        <span></span>
+                    </button>
+                </div>
+                <div class="panel__content panel-content">
+                    <h2 class="panel-content__title">Hello Evano 👋🏼,</h2>
+
+                    <div class="panel-content__wrapper panel-content-wrapper">
+                        <div class="panel-content-wrapper__header">
+                            <div class="panel-content-wrapper__box-title">
+                                <h4 class="panel-content-wrapper__title">All Customers</h4>
+                                <div class="panel-content-wrapper__online">Active Members</div>
+                            </div>
+                            <form class="panel-content-wrapper__search search-form" action="#">
+                                <div class="search-form__item">
+                                    <button type="submit">
+                                        <svg>
+                                            <use xlink:href="./images/svg/sprite.svg#search"></use>
+                                        </svg>
+                                    </button>
+                                    <input type="text" name="search" placeholder="Search">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="panel-content-wrapper__inner content-wrapper-inner">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Customer Name</th>
+                                        <th>Company</th>
+                                        <th>Phone Number</th>
+                                        <th>Email</th>
+                                        <th>Country</th>
+                                        <th class="status">Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Jane Cooper</td>
+                                        <td>Microsoft</td>
+                                        <td><a href="tel:2255550118">(225) 555-0118</a></td>
+                                        <td><a href="">jane@microsoft.com</a></td>
+                                        <td>United States</td>
+                                        <td class="status"><span class="active">Active</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Floyd Miles</td>
+                                        <td>Yahoo</td>
+                                        <td><a href="tel:2055550100">(205) 555-0100</a></td>
+                                        <td><a href="">floyd@yahoo.com</a></td>
+                                        <td>Kiribati</td>
+                                        <td class="status"><span class="inactive">Inactive</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ronald Richards</td>
+                                        <td>Adobe</td>
+                                        <td><a href="tel:3025550107">(302) 555-0107</a></td>
+                                        <td><a href="">ronald@adobe.com</a></td>
+                                        <td>Israel</td>
+                                        <td class="status"><span class="inactive">Inactive</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Marvin McKinney</td>
+                                        <td>Tesla</td>
+                                        <td><a href="tel:2525550126">(252) 555-0126</a></td>
+                                        <td><a href="">marvin@tesla.com</a></td>
+                                        <td>Iran</td>
+                                        <td class="status"><span class="active">Active</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Jerome Bell</td>
+                                        <td>Google</td>
+                                        <td><a href="tel:6295550129">(629) 555-0129</a></td>
+                                        <td><a href="">jerome@google.com</a></td>
+                                        <td>Réunion</td>
+                                        <td class="status"><span class="active">Active</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kathryn Murphy</td>
+                                        <td>Microsoft</td>
+                                        <td><a href="tel:4065550120">(406) 555-0120</a></td>
+                                        <td><a href="">kathryn@microsoft.com</a></td>
+                                        <td>Curaçao</td>
+                                        <td class="status"><span class="active">Active</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Jacob Jones</td>
+                                        <td>Yahoo</td>
+                                        <td><a href="tel:2085550112">(208) 555-0112</a></td>
+                                        <td><a href="">jacob@yahoo.com</a></td>
+                                        <td>Brazil</td>
+                                        <td class="status"><span class="active">Active</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kristin Watson</td>
+                                        <td>Facebook</td>
+                                        <td><a href="tel:7045550127">(704) 555-0127</a></td>
+                                        <td><a href="">kristin@facebook.com</a></td>
+                                        <td>Åland Islands</td>
+                                        <td class="status"><span class="inactive">Inactive</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="content-wrapper-inner__bottom bottom">
+                                <div class="bottom__label">Showing data 1 to 8 of  256K entries</div>
+                                <div class="pagination">
+                                    <a class="pagination__btn left" href="#">
+                                        <svg class="arrow">
+                                            <use xlink:href="./images/svg/sprite.svg#arrow-left"></use>
+                                        </svg>
+                                    </a>
+                                    <ul class="pagination__list">
+                                        <div class="pagination__item"><a href="#" class="pagination__link active">1</a></div>
+                                        <div class="pagination__item"><a href="#" class="pagination__link">2</a></div>
+                                        <div class="pagination__item"><a href="#" class="pagination__link">3</a></div>
+                                        <div class="pagination__item"><a href="#" class="pagination__link">4</a></div>
+                                        <div class="pagination__item">...</div>
+                                        <div class="pagination__item"><a href="#" class="pagination__link">40</a></div>
+                                    </ul>
+                                    <a class="pagination__btn right" href="#">
+                                        <svg class="arrow">
+                                            <use xlink:href="./images/svg/sprite.svg#arrow-right"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
